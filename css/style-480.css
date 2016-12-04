@@ -85,7 +85,7 @@
 
 .header,
 .slide {
-  width: 480px;
+  width: 100%;
 }
 
 .s-wrp {
@@ -140,7 +140,7 @@
 
 
 .company__text-block {
-  width: 382px;
+  width: 381px;
   margin-left: 82px;
   padding-top: 47px;
   padding-bottom: 0;
@@ -254,6 +254,7 @@
 }
 
 .posts {
+  width: 340px;
   margin-left: 83px;
   padding-top: 47px;
   padding-bottom: 129px;
@@ -269,10 +270,6 @@
 
 .brands {
   padding-top: 36px;
-}
-
-.centering-480 {
-  width: 480px
 }
 
 .brands__tm {
@@ -306,7 +303,7 @@
 
 .categories__category {
   width: 440px;
-  margin-left: 0;
+  margin-left: 20px;
   padding-top: 60px;
   padding-bottom: 0;
 }
@@ -325,7 +322,6 @@
 }
 
 .categories__centering {
-  padding-left: 20px;
   padding-bottom: 86px;
 }
 
@@ -352,13 +348,13 @@
 
 .centering {
   display: block;
-  width: 480px;
+  width: 100%;
 }
 
 .main-footer__navi {
-  width: 480px;
+  width: 441px;
   padding-top: 40px;
-  padding-left: 17px;
+  margin-left: 22px;
   margin-bottom: 86px;
 }
 
@@ -373,14 +369,13 @@
   width: auto;
   overflow: hidden;
   background: none;
-  border-radius: none;
   border: none;
 }
 
 .nav__item--footer-480 {
   min-width: auto;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-top: none;
   border-bottom: none;
 }
@@ -389,13 +384,17 @@
   padding-left: 0;
 }
 
+.nav__item:last-child {
+  padding-right: 2px;
+}
+
 .nav__link--footer-480:hover {
   background: rgba(0, 0, 0, 0);
 }
 
 .main-footer__copyright {
-  right: 165px;
-  bottom: -48px;
+  right: 171px;
+  bottom: -51px;
 }
 
 .nav__link--footer-480 {

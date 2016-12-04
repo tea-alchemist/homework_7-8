@@ -96,12 +96,13 @@
 }
 
 .posts {
-  width: 320px;
+  width: 302px;
   margin-left: 18px;
   padding-bottom: 125px;
 }
 
 .posts__post {
+  width: 215px;
   margin-top: 20px;
 }
 
@@ -169,7 +170,7 @@
 }
 
 .main-footer__navi {
-  width: 320px;
+  width: 298px;
 }
 
 .main-footer__copyright {
