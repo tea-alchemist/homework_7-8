@@ -80,6 +80,7 @@ body {
 }
 
 .nav__link {
+  outline: 1px solid red;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -92,11 +93,13 @@ body {
 }
 
 .slider {
+  outline: 1px solid red;
   width: 100%;
   padding-top: 17%;
 }
 
 .s-wrp {
+  outline: 1px solid red;
   position: absolute;
   width: 100%;
   height: 400px;
@@ -105,15 +108,18 @@ body {
 }
 
 .slide {
+  outline: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
 
 .slide-block {
+  outline: 1px solid red;
   width: 510px;
 }
 
 .slide-block__header {
+  outline: 1px solid red;
   margin: 0;
   padding-top: 89px;
   font-weight: normal;
@@ -125,6 +131,7 @@ body {
 }
 
 .slide-block__subheader {
+  outline: 1px solid red;
   margin: 0;
   margin-top: 10px;
   text-transform: uppercase;
@@ -148,7 +155,7 @@ body {
 
 .video-block {
   position: relative;
-  width: 270px;
+  width: 54%;
   margin-right: 71px;
 }
 

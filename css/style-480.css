@@ -14,7 +14,7 @@
 }
 
 .navi__logo {
-  width: 152px;
+  width: 155px;
   margin: 0 auto;
   margin-bottom: 57px;
 }
@@ -25,7 +25,8 @@
   visibility: hidden;
   flex-direction: column;
   width: 245px;
-  left: 117px;
+  right: 50%;
+  margin-right:-122px;
   top: 106px;
   z-index: 10;
   overflow: hidden;
@@ -91,12 +92,14 @@
 
 .s-wrp {
   height: 246px;
+  background: rgba(0, 0, 0, 0);
 }
 
 .slide-block {
-  width: 65%;
-  margin-left: 9%;
+  width: 60%;
+  margin: auto;
   line-height: 26px;
+  overflow: hidden;
 }
 
 .slide-block__header {
@@ -116,8 +119,7 @@
 }
 
 .video-block {
-  position: relative;
-  margin-right: 6%;
+  display: none;
 }
 
 .video-block::before {
@@ -127,6 +129,7 @@
   height: 304px;
   top: -9px;
   background: url('../img/phone-480.png');
+  overflow: hidden;
 }
 
 .phone-1,

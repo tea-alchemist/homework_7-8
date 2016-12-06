@@ -1,4 +1,4 @@
-@media (max-width: 320px) and (min-width: 100px) {
+@media (max-width: 479px) and (min-width: 320px) {
 
 .h-wrp {
   height: 489px;
@@ -6,14 +6,6 @@
 
 .header {
   width: 320px;
-}
-
-.nav {
-  left: 35px;
-}
-
-.video-block {
-  display: none;
 }
 
 .s-wrp {
