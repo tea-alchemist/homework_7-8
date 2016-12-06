@@ -15,7 +15,7 @@
 }
 
 .navi__nav {
-  width: 93.2%;
+  width: 86.5%;
 }
 
 .slider {
@@ -29,8 +29,8 @@
 }
 
 .slide-block {
-  width: 270px;
-  margin-left: 43px;
+  width: 36%;
+  margin-left: 5.7%;
   line-height: 26px;
 }
 
@@ -53,7 +53,7 @@
 
 .video-block {
   margin: 0;
-  margin-right: 45px;
+  margin-right: 30px;
 }
 
 .phone-2 {
@@ -69,17 +69,17 @@
 }
 
 .company__text-block {
-  width: 156px;
-  margin-left: 82px;
+  width: 21%;
+  margin-left: 11%;
   padding-top: 47px;
 }
 
 .company__text-block--icon--2 {
-  margin-left: 97px;
+  margin-left: 12.8%;
 }
 
 .company__text-block--icon--3 {
-  margin-left: 105px;
+  margin-left: 13.9%;;
 }
 
 .company__header {
@@ -108,8 +108,12 @@
   background-position: -311px -11px;
 }
 
+.info-slider {
+  width: 60.4%
+}
+
 .info-slide {
-  width: 312px;
+  width: 76%;
   margin-left: 45px;
   padding-right: 20px;
   padding-top: 30px;
@@ -120,12 +124,18 @@
   font-size: 24px;
 }
 
+.text-block__paragraph {
+  width: 98%;
+  max-height: 187px;
+  overflow-y: hidden;
+}
+
 .text-block__header--purple {
   display: block;
 }
 
-.post__header {
-  letter-spacing: 0.6px;
+.post__link {
+  letter-spacing: 0.9px;
 }
 
 .posts__more--desktop {
@@ -137,18 +147,6 @@
   margin-right: 120px;
   font-size: 19px;
   letter-spacing: -0.4px;
-}
-
-.brands__tm {
-  margin-left: 55px;
-}
-
-.tm-b1 {
-  margin-left: 22px;
-}
-
-.tm-b4 {
-  margin-left: 67px;
 }
 
 .categories__category {
@@ -163,6 +161,10 @@
 .categories__logo-header,
 .categories__copyright {
   display: none;
+}
+
+.categories__header {
+  font-size: 1.5rem;
 }
 
 .categories__header--desktop {
@@ -185,8 +187,11 @@
 }
 
 .centering {
-  width: 100%;
-  box-sizing: border-box;
+  max-width: 768px;
+}
+
+.navi-nav--footer {
+  width: 72.2%;
 }
 
 .main-footer__navi {
@@ -199,6 +204,7 @@
 
 .main-footer__copyright {
   position: absolute;
-  right: 4px;
-  bottom: -45px;
+  right: 3px;
+  bottom: 81px;
+
 }

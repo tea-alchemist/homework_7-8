@@ -169,6 +169,11 @@
   display: none;
 }
 
+.main-footer {
+  padding-top: 40px;
+  padding-bottom: 34px;
+}
+
 .main-footer__navi {
   width: 298px;
 }
@@ -176,7 +181,7 @@
 .main-footer__copyright {
   position: absolute;
   right: 90px;
-  bottom: -34px;
+  bottom: 80px;
 }
 
 }
